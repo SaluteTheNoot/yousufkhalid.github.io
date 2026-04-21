@@ -57,6 +57,14 @@ body {
   opacity: 0.85;
 }
 
+.tagline2 {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: clamp(1rem, 1.2vw, 2rem);
+  font-weight: 400;
+  color: var(--dark);
+  opacity: 0.85;
+}
+
 /* ── Hero icons ── */
 .hero-icons {
   display: flex;
