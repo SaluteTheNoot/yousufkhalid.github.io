@@ -204,7 +204,7 @@ body {
 
 .ticker {
   display: inline-flex;
-  animation: scroll-ticker 18s linear infinite;
+  animation: scroll-ticker 28s linear infinite;
 }
 
 .ticker span {
