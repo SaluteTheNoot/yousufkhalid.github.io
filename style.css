@@ -26,7 +26,7 @@ body {
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  min-height: calc(70vh - 80px);
+  min-height: calc(100vh - 80px);
   padding: 46px 64px 60px;
   position: relative;
   align-items: center;
@@ -204,7 +204,7 @@ body {
 
 .ticker {
   display: inline-flex;
-  animation: scroll-ticker 18s linear infinite;
+  animation: scroll-ticker 28s linear infinite;
 }
 
 .ticker span {
@@ -237,84 +237,6 @@ body {
     max-width: 100%;
     
   }
-}
-
-/* ── Scroll to experience arrow ── */
-.scroll-to-exp {
-  display: flex;
-  justify-content: center;
-  padding: 15px 0;
-  background: var(--bg);
-}
-
-.scroll-to-exp a {
-  width: 44px;
-  height: 44px;
-  background: var(--dark);
-  color: #fff;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  transition: opacity 0.2s;
-}
-
-.scroll-to-exp a:hover { opacity: 0.75; }
-
-/* ── Experience section ── */
-.experience-section {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 64px 64px 80px;
-  min-height: calc(100vh - 80px);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.exp-header {
-  display: grid;
-  grid-template-columns: 1fr 1fr auto;
-  padding: 0 0 12px;
-  font-family: 'Bricolage Grotesque', sans-serif;
-  font-size: 0.8rem;
-  font-weight: 800;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  opacity: 0.5;
-  border-bottom: 4.5px solid var(--dark);
-}
-
-.exp-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr auto;
-  align-items: center;
-  padding: 22px 0;
-  border-bottom: 2px solid rgba(28,16,40,0.2);
-  font-family: 'Bricolage Grotesque', sans-serif;
-  transition: opacity 0.15s;
-}
-
-.exp-row:hover { opacity: 0.7; }
-
-.exp-company-name {
-  font-size: clamp(1.1rem, 2vw, 1.4rem);
-  font-weight: 800;
-  color: var(--dark);
-}
-
-.exp-role-name {
-  font-size: clamp(0.95rem, 1.5vw, 1.1rem);
-  font-weight: 400;
-  color: var(--dark);
-}
-
-.exp-year {
-  font-size: 0.9rem;
-  font-weight: 600;
-  opacity: 0.5;
-  color: var(--dark);
 }
 
 /* ── Content below fold ── */
